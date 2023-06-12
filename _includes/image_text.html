@@ -1,0 +1,10 @@
+<figure class="image-text width-small">
+  <div style="flex: 1;">
+    <img src="{{ include.imageurl }}" alt="{{ include.title }}" />
+  </div>
+  <div>
+    {% if include.caption %}
+    {{ include.caption }}
+    {% endif %}
+  </div>
+</figure>

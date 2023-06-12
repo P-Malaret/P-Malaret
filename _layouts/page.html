@@ -5,6 +5,7 @@ layout: default
 <main class="main-content fadeInDown delay_075s">
 
   <article class="post">
+    {% if page.title and page.title != "" %}
     <header class="post-header">
       <time class="post-date" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%B %-d, %Y" }}</time>
       <h1 class="post-title">{{page.title}}</h1>
@@ -14,6 +15,7 @@ layout: default
       </figure><!-- .post-thumbnail -->
       {% endif %}
     </header><!-- .post-header -->
+    {% endif %}
     <div class="post-content">
       {{content}}
     </div><!-- .post-content -->

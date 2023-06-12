@@ -243,6 +243,12 @@ video {
   margin: 0 0 1.66667em;
 }
 
+.image-text {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 1.66667em;
+}
+
 .image-card figcaption {
   color: _palette(meta);
   font-size: 0.77778rem;
@@ -257,6 +263,13 @@ video {
     margin-right: calc(425px - 50vw);
     max-width: none;
     width: calc(100vw - 90px);
+  }
+  .width-small img {
+    float: left;
+    margin-right: 10px;
+    max-width: none;
+    width: 240px;
+    vertical-align: top;
   }
 }
 
