@@ -3,7 +3,7 @@ layout: page
 description: This is a style guide of the Scriptor Jekyll theme
 ---
 # Project Main
-{% include image_text.html imageurl="/images/projectMain-logo.png" title="Apple Super"
+{% include image_text.html imageurl="/images/projectMain-logo.png"
 caption="Aquesta aplicació, tal i com indica el nom, és el meu projecte principal. <br>
 És on es concentren tots els coneixements que he anat adquirint a mesura que he anat desenvolupant en React Native.
 <br><br>
@@ -18,7 +18,7 @@ També hi ha alguns jocs més o menys senzills, com els escacs.
 <br>
 
 # KoobinAccess
-{% include image_text.html imageurl="/images/koobinAccess-logo.png" title="Apple Super" caption="
+{% include image_text.html imageurl="/images/koobinAccess-logo.png" caption="
 Aquesta aplicació és propietat de KoobinEvent SL.<br>
 Vaig començar a desenvolupar aquest projecte per a Koobin com a Treball de Final de Grau amb la seva supervisió.<br>
 En veure la gran utilitat que té i la millora que suposa respecte a l'aplicació anterior, m'he dedicat al seu desenvolupament a temps complet des de principis del 2020.<br>

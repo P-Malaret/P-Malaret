@@ -18,7 +18,7 @@ description: "Benvinguts a Project Main, el racó d'Internet que engloba els meu
 baseurl: ""
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://scriptor-jekyll.netlify.com"
+url: "https://pmalaret.github.io"
 
 # Favicon
 favicon: images/favicon.png
@@ -31,9 +31,9 @@ navigation:
   - text: Main
     url: /
   - text: Projects
-    url: /projects/
+    url: /projects
   - text: Curriculum
-    url: /curriculum/
+    url: /curriculum
 
 
 # Colors
